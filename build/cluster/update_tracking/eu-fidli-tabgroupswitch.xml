@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="eu.fidli.tabgroupswitch">
+    <module_version install_time="1438104531094" last="true" origin="installer" specification_version="1.1">
+        <file crc="216231145" name="config/Modules/eu-fidli-tabgroupswitch.xml"/>
+        <file crc="1884020090" name="modules/eu-fidli-tabgroupswitch.jar"/>
+    </module_version>
+</module>

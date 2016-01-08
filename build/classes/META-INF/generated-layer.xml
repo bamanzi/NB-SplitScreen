@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="eu-fidli-tabgroupswitch-GoToNextTabGroup.instance">
+                <!--eu.fidli.tabgroupswitch.GoToNextTabGroup-->
+                <attr
+                    bundlevalue="eu.fidli.tabgroupswitch.Bundle#CTL_GoToNextTabGroup" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="eu.fidli.tabgroupswitch.GoToNextTabGroup"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+        <folder name="Edit">
+            <file name="eu-fidli-tabgroupswitch-AttachFileToNextTabGroup.instance">
+                <!--eu.fidli.tabgroupswitch.AttachFileToNextTabGroup-->
+                <attr
+                    bundlevalue="eu.fidli.tabgroupswitch.Bundle#CTL_AttachFileToNextTabGroup" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="eu.fidli.tabgroupswitch.AttachFileToNextTabGroup"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="GoTo">
+            <file name="eu-fidli-tabgroupswitch-GoToNextTabGroup.shadow">
+                <!--eu.fidli.tabgroupswitch.GoToNextTabGroup-->
+                <attr name="originalFile" stringvalue="Actions/Window/eu-fidli-tabgroupswitch-GoToNextTabGroup.instance"/>
+                <attr intvalue="500" name="position"/>
+            </file>
+        </folder>
+        <folder name="Edit">
+            <file name="eu-fidli-tabgroupswitch-AttachFileToNextTabGroup.shadow">
+                <!--eu.fidli.tabgroupswitch.AttachFileToNextTabGroup-->
+                <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-tabgroupswitch-AttachFileToNextTabGroup.instance"/>
+                <attr intvalue="1325" name="position"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="eu-fidli-tabgroupswitch-AttachFileToNextTabGroup.shadow">
+                <!--eu.fidli.tabgroupswitch.AttachFileToNextTabGroup-->
+                <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-tabgroupswitch-AttachFileToNextTabGroup.instance"/>
+                <attr intvalue="1325" name="position"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Shortcuts">
+        <file name="D-Q.shadow">
+            <!--eu.fidli.tabgroupswitch.GoToNextTabGroup-->
+            <attr name="originalFile" stringvalue="Actions/Window/eu-fidli-tabgroupswitch-GoToNextTabGroup.instance"/>
+        </file>
+        <file name="F3.shadow">
+            <!--eu.fidli.tabgroupswitch.AttachFileToNextTabGroup-->
+            <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-tabgroupswitch-AttachFileToNextTabGroup.instance"/>
+        </file>
+        <file name="CA-RIGHT.shadow">
+            <!--eu.fidli.tabgroupswitch.AttachFileToNextTabGroup-->
+            <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-tabgroupswitch-AttachFileToNextTabGroup.instance"/>
+        </file>
+        <file name="DO-RIGHT.shadow">
+            <!--eu.fidli.tabgroupswitch.AttachFileToNextTabGroup-->
+            <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-tabgroupswitch-AttachFileToNextTabGroup.instance"/>
+        </file>
+        <file name="F12.shadow">
+            <!--eu.fidli.tabgroupswitch.AttachFileToNextTabGroup-->
+            <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-tabgroupswitch-AttachFileToNextTabGroup.instance"/>
+        </file>
+        <file name="C-Q.shadow">
+            <!--eu.fidli.tabgroupswitch.GoToNextTabGroup-->
+            <attr name="originalFile" stringvalue="Actions/Window/eu-fidli-tabgroupswitch-GoToNextTabGroup.instance"/>
+        </file>
+    </folder>
+</filesystem>

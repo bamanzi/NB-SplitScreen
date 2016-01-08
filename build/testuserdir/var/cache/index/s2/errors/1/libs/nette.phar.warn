@@ -1,0 +1,7 @@
+ERROR_NO_BADGE:13599:Expected an operand but found <\n		debug.innerHTML = <?php echo\n		                
+ERROR_NO_BADGE:13600:Expected , but found \d\njson_encode(Helpers\d\dfixEncoding($output))?>;\n            
+ERROR_NO_BADGE:13602:Expected an operand but found <\n		Tracy.Dumper.init(<?php echo\n		                
+ERROR_NO_BADGE:13603:Expected , but found \d\njson_encode(Dumper\d\dfetchLiveData())?>);\n                 
+ERROR_NO_BADGE:14393:Expected an operand but found <\nTracy && Tracy.Dumper.init(<?php echo\n           
+ERROR_NO_BADGE:14394:Expected , but found \d\njson_encode(Dumper\d\dfetchLiveData())?>);\n                 
+WARNING:13532:Unexpected character(s) "inherit" found
